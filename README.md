@@ -9,6 +9,12 @@ admin:(0P>T4Q%9F
 ### Gateway
 root:q;#XD3]ge+FD
 
+### Admin-Client
+admin-client:admin
+
+### Employee-Client
+employee-client:employee
+
 # Modif
 ### Webserver
  - **Port SSH :** 22 -> 1298
