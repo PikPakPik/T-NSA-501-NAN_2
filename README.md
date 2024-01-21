@@ -7,26 +7,21 @@ root:ad0rx>4Amt
 admin:(0P>T4Q%9F
 
 ### Gateway
-root:
-admin:
+root:q;#XD3]ge+FD
 
 # Modif
 ### Webserver
- **Port SSH :** 22 -> 1298
- /etc/pam.d/passwd    #politique de mdp
+ - **Port SSH :** 22 -> 1298
+ - /etc/pam.d/passwd    #politique de mdp
 ### Gateway
- **Port SSH :** 22 -> 1337
- /bin/ssh/sshd.config   #désactiver accés au root et cgmt de port
- /etc/pf.conf   #parefeu
- /etc/hostname.em0-1-2-3       #configuration des hostname
- /etc/dhcpd.conf          #regles dhcp
+ - **Port SSH :** 22 -> 1337  
+ -  **/bin/ssh/sshd.config**   #désactiver accés au root et changement de port  
+ -  **/etc/pf.conf**   #pare-feu  
+ -  **/etc/hostname.em0-1-2-3**       #configuration des hostnames 
+ -  **/etc/dhcpd.conf**          #regles dhcp  
 
 # Politique de mot de passe 
-
-  The above enforces the following:
-– forces old passwords to be entered AND
-– 12 characters if they are from 3 character classes OR
-– 10 characters if they are from 4 character classes AND
-– denies new password if it is similar to old one AND
-– enforce the above restrictions for non-root users.
+- 12 caractères si il y a 3 caractères spéciaux
+- 10 caractères si il y a 4 caractères spéciaux
+- Impossible de remetre un mot de passe utilisé
 
