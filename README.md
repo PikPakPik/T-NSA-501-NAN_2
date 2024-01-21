@@ -1,5 +1,28 @@
 # T-NSA-501-NAN_2
 [![](https://mermaid.ink/img/pako:eNqdlP9umzAQx18Fuf8C8xEDxpoqRWm3Vmor1PSvJRFywE1Q-RERZ22W5oH2HHuxmcCSQJMmmiXA5zt_fR_O9gqFeSQQQ5OCz6ba3eMw01Sby2UitO9cile-DPqi-CkK7TlOEnYBY4ItW5_LIn8R7GJMuRd6tWm8xpGcMmv2VsssxpVuU6lylu3qpucPypdWeUZ7rof-QD0fHd_iRIpi4PPwRcjaqt0ii_bzv-s-BBB0ozTOYpUgl3Ge1RSRB9SxthQlw5ieojikt8trMx74vYHf05oxo3ZQSRw88mwiKvhNl2ngWSY41CSWSbDh4ONUVrMmhEC4LUJFc7om-zq7BCt7UH2-jovL-25PYxqmDGNmuQwTJggjUem69Rs5u3jU1jmD1AUD4BPUTnCdzpJ8KUQNG3oUINzCloXjZ8HulHZpqpG6ZJXvz-9R03kaAFStgH4gaB0ewzA-2T9HgpvlORLUxjq46w3j8r2bJJqfF3L-fkC89avL-JunJ_9L-errmh9nE708k8fmHlzxNlNnMxNyO1_9wVrl0I3Q2Nn_Ob_FcLYC0lEqipTHkboMV6XeEMmpSMUQMdWNePEyRMNsreL4Qub9ZRYiJouF0NFiFimpq5irrZYi9syT-Xb0OoplXvyLnPHsR56neyZiK_SGmAG4Y1LbdmxKMVgELB0tEYMOMZVpu7RDKNiA3bWOfm0UwATPxZbjgAfEtj1i60hsFruvLvTNvb7-C78V1kk?type=png)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqdlP9umzAQx18Fuf8C8xEDxpoqRWm3Vmor1PSvJRFywE1Q-RERZ22W5oH2HHuxmcCSQJMmmiXA5zt_fR_O9gqFeSQQQ5OCz6ba3eMw01Sby2UitO9cile-DPqi-CkK7TlOEnYBY4ItW5_LIn8R7GJMuRd6tWm8xpGcMmv2VsssxpVuU6lylu3qpucPypdWeUZ7rof-QD0fHd_iRIpi4PPwRcjaqt0ii_bzv-s-BBB0ozTOYpUgl3Ge1RSRB9SxthQlw5ieojikt8trMx74vYHf05oxo3ZQSRw88mwiKvhNl2ngWSY41CSWSbDh4ONUVrMmhEC4LUJFc7om-zq7BCt7UH2-jovL-25PYxqmDGNmuQwTJggjUem69Rs5u3jU1jmD1AUD4BPUTnCdzpJ8KUQNG3oUINzCloXjZ8HulHZpqpG6ZJXvz-9R03kaAFStgH4gaB0ewzA-2T9HgpvlORLUxjq46w3j8r2bJJqfF3L-fkC89avL-JunJ_9L-errmh9nE708k8fmHlzxNlNnMxNyO1_9wVrl0I3Q2Nn_Ob_FcLYC0lEqipTHkboMV6XeEMmpSMUQMdWNePEyRMNsreL4Qub9ZRYiJouF0NFiFimpq5irrZYi9syT-Xb0OoplXvyLnPHsR56neyZiK_SGmAG4Y1LbdmxKMVgELB0tEYMOMZVpu7RDKNiA3bWOfm0UwATPxZbjgAfEtj1i60hsFruvLvTNvb7-C78V1kk)  
+
+# Specification
+### Webserver  
+OS : FreeBSD 13  
+RAM : 2Go  
+Stockage : 16Go
+  
+### Gateway  
+OS : OpenBSD 7.4  
+RAM : 2Go  
+Stockage : 16Go
+  
+### Admin-Client  
+OS : Debian 11  
+Coeurs : 2  
+RAM : 2Go  
+Stockage : 20Go
+  
+### Webserver  
+OS : Windows 10  
+RAM : 4,5Go  
+Stockage : 64Go
+
 # Passwords 
 ### Webserver  
 root:ad0rx>4Amt  
@@ -30,3 +53,6 @@ employee-client:employee
 - 10 caractères si il y a 4 caractères spéciaux
 - Impossible de remetre un mot de passe utilisé
 
+
+# Crédits
+Jean et Alex 🥳
